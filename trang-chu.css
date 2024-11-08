@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+}
+hr {
+    height: 2px;
+    border: none;
+    border-top: 2px dashed black;
+    background: none;
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 30px;
+}
+.top {
+    width: 100%;
+    height: 100px;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+
+/* home */
+.logo {
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    min-height: 100vh;
+    background-image: url(../images/decor\ 2.webp);
+    background-size:cover;
+    width: 100%;
+}
+.logo h1 {
+    font-size: 60px;
+    color: cadetblue;
+    padding: 200px 0px 0px 390px;
+}
+
+img { 
+    width: 280px;
+    height: 280px;
+}
+
+
+/* about */
+.about {
+    width: 100%;
+    height: 700px;
+}
+
+.about h1 {
+    font-size: 60px;
+    color: cadetblue;
+    text-align: center;
+}
+.about.container{
+    height: 600px;
+    width: 100%;
+}
+.one{
+    width: 100%;
+    height: 300px;
+
+}
+.tow{
+    width: 100%;
+    height: 300px;
+}
+.spnoibat{
+    float: left;
+    padding-left: 70px;
+
+}
+.spnoibat img {
+    border-radius: 20px;
+}
+
+
+.product {
+    justify-content: center;
+    min-height: min-content;
+    width: 100%;
+    height: 100%;
+}
+.product h1 {
+    font-size: 60px;
+    color: cadetblue;
+    text-align: center;
+}
+.oneproduct{
+    float: left;
+    padding-left: 10px;
+}
+.hang1{
+    height: 330px;
+}
+.hinhsp img {
+    border-radius: 20px;
+}
+.giohang img {
+    height: 20px;
+    width: 20px;
+}
+
+
+
+/* information */
+.dashed-title {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+}
+
+.dashed-title::before,
+.dashed-title::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px dashed #000;
+    margin: 0 15px;
+}
+.information{
+    margin-top: 50px;
+    height: 400px;
+    background-color: rgb(236, 232, 226);
+}
+.information h4 {
+    text-align: center;
+    font-size: 30px;
+}
+.infor {
+    display: flex;
+}
+.one_infor{
+    width: 25%;
+    margin-left: 60px;
+}
+.hinh img{  
+    width: 100px;
+    height: 100px;
+}
+.hinh{
+    text-align: center;
+}
+.thongtin{
+    text-align: center;
+    padding-top: 20px;
+    .ten{
+        color: red;
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+.footer{
+    display: flex;
+    padding-left: 50px;
+    height: 250px;
+}
+.div-footer{
+    width: 25%;
+}
+.fanpage{
+    text-align: center;
+}
+.lienhe{
+    display: flex;
+    text-align: center;
+    padding-left: 20px;
+}
+.imgLienHe img{
+    height: 50px;
+    width: 50px;
+    padding-left: 50px;
+
+}
+.div-footer button{
+    color: #fff;
+    background-color: black;
+    height: 35px;
+}
+.div-footer input {
+    height: 30px;
+    width: 70%;
+}
